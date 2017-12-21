@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A87305581FE7588300158C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87305571FE7588300158C55 /* AppDelegate.swift */; };
+		A873055A1FE7588300158C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87305591FE7588300158C55 /* ViewController.swift */; };
+		A873055D1FE7588300158C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A873055B1FE7588300158C55 /* Main.storyboard */; };
+		A87305601FE7588300158C55 /* Http____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A873055E1FE7588300158C55 /* Http____.xcdatamodeld */; };
+		A87305621FE7588300158C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87305611FE7588300158C55 /* Assets.xcassets */; };
+		A87305651FE7588300158C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87305631FE7588300158C55 /* LaunchScreen.storyboard */; };
+		A87305701FE7588300158C55 /* Http____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A873056F1FE7588300158C55 /* Http____Tests.swift */; };
+		A873057B1FE7588300158C55 /* Http____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A873057A1FE7588300158C55 /* Http____UITests.swift */; };
+		A8D5A7221FE7A79900A1D887 /* IMG_0006.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A8D5A7211FE7A79900A1D887 /* IMG_0006.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A873056C1FE7588300158C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A873054C1FE7588300158C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87305531FE7588300158C55;
+			remoteInfo = "Http同步请求";
+		};
+		A87305771FE7588300158C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A873054C1FE7588300158C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87305531FE7588300158C55;
+			remoteInfo = "Http同步请求";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A87305541FE7588300158C55 /* Http同步请求.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Http同步请求.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87305571FE7588300158C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A87305591FE7588300158C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A873055C1FE7588300158C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A873055F1FE7588300158C55 /* Http____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Http____.xcdatamodel"; sourceTree = "<group>"; };
+		A87305611FE7588300158C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A87305641FE7588300158C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A87305661FE7588300158C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A873056B1FE7588300158C55 /* Http同步请求Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Http同步请求Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A873056F1FE7588300158C55 /* Http____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Http____Tests.swift"; sourceTree = "<group>"; };
+		A87305711FE7588300158C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87305761FE7588300158C55 /* Http同步请求UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Http同步请求UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A873057A1FE7588300158C55 /* Http____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Http____UITests.swift"; sourceTree = "<group>"; };
+		A873057C1FE7588300158C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D5A7211FE7A79900A1D887 /* IMG_0006.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0006.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87305511FE7588300158C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87305681FE7588300158C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87305731FE7588300158C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A873054B1FE7588300158C55 = {
+			isa = PBXGroup;
+			children = (
+				A87305561FE7588300158C55 /* Http同步请求 */,
+				A873056E1FE7588300158C55 /* Http同步请求Tests */,
+				A87305791FE7588300158C55 /* Http同步请求UITests */,
+				A87305551FE7588300158C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87305551FE7588300158C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87305541FE7588300158C55 /* Http同步请求.app */,
+				A873056B1FE7588300158C55 /* Http同步请求Tests.xctest */,
+				A87305761FE7588300158C55 /* Http同步请求UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87305561FE7588300158C55 /* Http同步请求 */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5A7211FE7A79900A1D887 /* IMG_0006.JPG */,
+				A87305571FE7588300158C55 /* AppDelegate.swift */,
+				A87305591FE7588300158C55 /* ViewController.swift */,
+				A873055B1FE7588300158C55 /* Main.storyboard */,
+				A87305611FE7588300158C55 /* Assets.xcassets */,
+				A87305631FE7588300158C55 /* LaunchScreen.storyboard */,
+				A87305661FE7588300158C55 /* Info.plist */,
+				A873055E1FE7588300158C55 /* Http____.xcdatamodeld */,
+			);
+			path = "Http同步请求";
+			sourceTree = "<group>";
+		};
+		A873056E1FE7588300158C55 /* Http同步请求Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A873056F1FE7588300158C55 /* Http____Tests.swift */,
+				A87305711FE7588300158C55 /* Info.plist */,
+			);
+			path = "Http同步请求Tests";
+			sourceTree = "<group>";
+		};
+		A87305791FE7588300158C55 /* Http同步请求UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A873057A1FE7588300158C55 /* Http____UITests.swift */,
+				A873057C1FE7588300158C55 /* Info.plist */,
+			);
+			path = "Http同步请求UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A87305531FE7588300158C55 /* Http同步请求 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A873057F1FE7588300158C55 /* Build configuration list for PBXNativeTarget "Http同步请求" */;
+			buildPhases = (
+				A87305501FE7588300158C55 /* Sources */,
+				A87305511FE7588300158C55 /* Frameworks */,
+				A87305521FE7588300158C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Http同步请求";
+			productName = "Http同步请求";
+			productReference = A87305541FE7588300158C55 /* Http同步请求.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A873056A1FE7588300158C55 /* Http同步请求Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87305821FE7588300158C55 /* Build configuration list for PBXNativeTarget "Http同步请求Tests" */;
+			buildPhases = (
+				A87305671FE7588300158C55 /* Sources */,
+				A87305681FE7588300158C55 /* Frameworks */,
+				A87305691FE7588300158C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A873056D1FE7588300158C55 /* PBXTargetDependency */,
+			);
+			name = "Http同步请求Tests";
+			productName = "Http同步请求Tests";
+			productReference = A873056B1FE7588300158C55 /* Http同步请求Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A87305751FE7588300158C55 /* Http同步请求UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87305851FE7588300158C55 /* Build configuration list for PBXNativeTarget "Http同步请求UITests" */;
+			buildPhases = (
+				A87305721FE7588300158C55 /* Sources */,
+				A87305731FE7588300158C55 /* Frameworks */,
+				A87305741FE7588300158C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87305781FE7588300158C55 /* PBXTargetDependency */,
+			);
+			name = "Http同步请求UITests";
+			productName = "Http同步请求UITests";
+			productReference = A87305761FE7588300158C55 /* Http同步请求UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A873054C1FE7588300158C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "郑小燕";
+				TargetAttributes = {
+					A87305531FE7588300158C55 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A873056A1FE7588300158C55 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A87305531FE7588300158C55;
+					};
+					A87305751FE7588300158C55 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A87305531FE7588300158C55;
+					};
+				};
+			};
+			buildConfigurationList = A873054F1FE7588300158C55 /* Build configuration list for PBXProject "Http同步请求" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A873054B1FE7588300158C55;
+			productRefGroup = A87305551FE7588300158C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87305531FE7588300158C55 /* Http同步请求 */,
+				A873056A1FE7588300158C55 /* Http同步请求Tests */,
+				A87305751FE7588300158C55 /* Http同步请求UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87305521FE7588300158C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87305651FE7588300158C55 /* LaunchScreen.storyboard in Resources */,
+				A8D5A7221FE7A79900A1D887 /* IMG_0006.JPG in Resources */,
+				A87305621FE7588300158C55 /* Assets.xcassets in Resources */,
+				A873055D1FE7588300158C55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87305691FE7588300158C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87305741FE7588300158C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87305501FE7588300158C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A873055A1FE7588300158C55 /* ViewController.swift in Sources */,
+				A87305581FE7588300158C55 /* AppDelegate.swift in Sources */,
+				A87305601FE7588300158C55 /* Http____.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87305671FE7588300158C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87305701FE7588300158C55 /* Http____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87305721FE7588300158C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A873057B1FE7588300158C55 /* Http____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A873056D1FE7588300158C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87305531FE7588300158C55 /* Http同步请求 */;
+			targetProxy = A873056C1FE7588300158C55 /* PBXContainerItemProxy */;
+		};
+		A87305781FE7588300158C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87305531FE7588300158C55 /* Http同步请求 */;
+			targetProxy = A87305771FE7588300158C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A873055B1FE7588300158C55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A873055C1FE7588300158C55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A87305631FE7588300158C55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87305641FE7588300158C55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A873057D1FE7588300158C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A873057E1FE7588300158C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87305801FE7588300158C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4SZ64K3RL;
+				INFOPLIST_FILE = "Http同步请求/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Http----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A87305811FE7588300158C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4SZ64K3RL;
+				INFOPLIST_FILE = "Http同步请求/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Http----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A87305831FE7588300158C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 274QRM25A5;
+				INFOPLIST_FILE = "Http同步请求Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Http----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Http同步请求.app/Http同步请求";
+			};
+			name = Debug;
+		};
+		A87305841FE7588300158C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 274QRM25A5;
+				INFOPLIST_FILE = "Http同步请求Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Http----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Http同步请求.app/Http同步请求";
+			};
+			name = Release;
+		};
+		A87305861FE7588300158C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 274QRM25A5;
+				INFOPLIST_FILE = "Http同步请求UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Http----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Http同步请求";
+			};
+			name = Debug;
+		};
+		A87305871FE7588300158C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 274QRM25A5;
+				INFOPLIST_FILE = "Http同步请求UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.Http----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Http同步请求";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A873054F1FE7588300158C55 /* Build configuration list for PBXProject "Http同步请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A873057D1FE7588300158C55 /* Debug */,
+				A873057E1FE7588300158C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A873057F1FE7588300158C55 /* Build configuration list for PBXNativeTarget "Http同步请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87305801FE7588300158C55 /* Debug */,
+				A87305811FE7588300158C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87305821FE7588300158C55 /* Build configuration list for PBXNativeTarget "Http同步请求Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87305831FE7588300158C55 /* Debug */,
+				A87305841FE7588300158C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87305851FE7588300158C55 /* Build configuration list for PBXNativeTarget "Http同步请求UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87305861FE7588300158C55 /* Debug */,
+				A87305871FE7588300158C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A873055E1FE7588300158C55 /* Http____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A873055F1FE7588300158C55 /* Http____.xcdatamodel */,
+			);
+			currentVersion = A873055F1FE7588300158C55 /* Http____.xcdatamodel */;
+			path = "Http____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A873054C1FE7588300158C55 /* Project object */;
+}
