@@ -24,10 +24,23 @@ class ViewController: UIViewController, NSURLConnectionDataDelegate {
         // http异步队列请求
         //        self.requestByAsyncQueue()
         //        self.nornalHttpRequest()
-        //        self.download()
+//                self.download()
 //        self.upload()
+        print("1")
+        print("2")
+        defer {
+            print("3")
+        }
+        print("4")
+        print("5")
         
     }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.present(URLSessionViewController(), animated: true, completion: nil)
+    }
+    
+    
+    
     
     func requestBySync() {
         let req = URLRequest(url: URL(string: "https://www.cqcb.com/newlist42.html")!)
@@ -163,6 +176,7 @@ class ViewController: UIViewController, NSURLConnectionDataDelegate {
         if let resp = response as? HTTPURLResponse {
             print("response == \(resp)")
             self.responseNew = resp
+            print("======\(resp.allHeaderFields)")
         }
     }
     
@@ -264,13 +278,13 @@ class ViewController: UIViewController, NSURLConnectionDataDelegate {
         }
         
     }
-    func deleteCookies() {
-        let cookies = HTTPCookieStorage.shared.cookies
-        
-        for cookie in cookies! {
-            HTTPCookieStorage.shared.deleteCookie(cookie)
-        }
-    }
+//    func deleteCookies() {
+//        let cookies = HTTPCookieStorage.shared.cookies
+//        
+//        for cookie in cookies! {
+//            HTTPCookieStorage.shared.deleteCookie(cookie)
+//        }
+//    }
     
     
     
